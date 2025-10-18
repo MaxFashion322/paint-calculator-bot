@@ -1,6 +1,6 @@
-package org.example;
+package org.example.model;
 
-public class Triangle extends Hole{
+public class Triangle extends Hole {
     private final double base;
     private final double height;
 

@@ -1,4 +1,8 @@
-package org.example;
+package org.example.core;
+
+import org.example.model.Hole;
+import org.example.model.Room;
+import org.example.model.Wall;
 
 import java.util.ArrayList;
 import java.util.List;

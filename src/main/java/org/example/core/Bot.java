@@ -1,6 +1,12 @@
-package org.example;
+package org.example.core;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import org.example.factory.CircleFactory;
+import org.example.factory.HoleFactory;
+import org.example.factory.RectangleFactory;
+import org.example.factory.TriangleFactory;
+import org.example.model.Room;
+import org.example.model.Wall;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;

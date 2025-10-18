@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Rectangle extends Hole {
     private final double height;

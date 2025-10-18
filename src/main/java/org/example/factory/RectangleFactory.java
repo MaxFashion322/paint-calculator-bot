@@ -1,4 +1,7 @@
-package org.example;
+package org.example.factory;
+
+import org.example.model.Hole;
+import org.example.model.Rectangle;
 
 public class RectangleFactory extends HoleFactory{
     private final double height;

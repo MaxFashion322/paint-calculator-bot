@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Circle extends Hole {
     private final double radius;
